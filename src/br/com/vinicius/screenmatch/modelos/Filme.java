@@ -1,72 +1,13 @@
 package br.com.vinicius.screenmatch.modelos;
 
-public class Filme {
-    private String nome;
-    private int anoDeLancamento;
-    private int totalAvaliacoes;
-    private int duracaoEmMinutos;
-    private double somaDasAvaliacoes;
-    private boolean inclusoNoPlano;
+public class Filme extends Titulo {
+    private String diretor;
 
-    public void exibeFichaTecnica() {
-        System.out.printf("Nome do filme: %s", nome);
-        System.out.printf("\nAno de lançamento: %d", anoDeLancamento);
+    public String getDiretor() {
+        return diretor;
     }
 
-    public void avalia(double nota) {
-        somaDasAvaliacoes += nota;
-        totalAvaliacoes++;
-    }
-
-    public double mediaAvaliacoes() {
-        return somaDasAvaliacoes / totalAvaliacoes;
-    }
-
-    public int getTotalAvaliacoes() {
-        return totalAvaliacoes;
-    }
-
-    public void setTotalAvaliacoes(int totalAvaliacoes) {
-        this.totalAvaliacoes = totalAvaliacoes;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public int getAnoDeLancamento() {
-        return anoDeLancamento;
-    }
-
-    public void setAnoDeLancamento(int anoDeLancamento) {
-        this.anoDeLancamento = anoDeLancamento;
-    }
-
-    public int getDuracaoEmMinutos() {
-        return duracaoEmMinutos;
-    }
-
-    public void setDuracaoEmMinutos(int duracaoEmMinutos) {
-        this.duracaoEmMinutos = duracaoEmMinutos;
-    }
-
-    public double getSomaDasAvaliacoes() {
-        return somaDasAvaliacoes;
-    }
-
-    public void setSomaDasAvaliacoes(double somaDasAvaliacoes) {
-        this.somaDasAvaliacoes = somaDasAvaliacoes;
-    }
-
-    public boolean isInclusoNoPlano() {
-        return inclusoNoPlano;
-    }
-
-    public void setInclusoNoPlano(boolean inclusoNoPlano) {
-        this.inclusoNoPlano = inclusoNoPlano;
+    public void setDiretor(String diretor) {
+        this.diretor = diretor;
     }
 }

@@ -1,4 +1,6 @@
 import br.com.vinicius.screenmatch.calculos.CalculadoraDeTempo;
+import br.com.vinicius.screenmatch.calculos.FiltroRecomendacao;
+import br.com.vinicius.screenmatch.modelos.Episodio;
 import br.com.vinicius.screenmatch.modelos.Filme;
 import br.com.vinicius.screenmatch.modelos.Serie;
 
@@ -36,6 +38,15 @@ public class Main {
         calculadora.inclui(meuFilme);
         calculadora.inclui(meuFilme2);
         calculadora.inclui(serie);
-        System.out.println("\n\nTempo Total: " + calculadora.getTempoTotal());
+        System.out.println("\nTempo Total: " + calculadora.getTempoTotal());
+
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filtra(meuFilme);
+
+        Episodio episodio = new Episodio();
+        episodio.setNumero(1);
+        episodio.setSerie(serie);
+        episodio.setTotalVisualizacoes(700);
+        filtro.filtra(episodio);
     }
 }

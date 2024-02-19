@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a8416bd-e98e-4333-9bab-b83c025297ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/vinicius/screenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/vinicius/screenmatch/modelos/Serie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/vinicius/screenmatch/modelos/Titulo.java" afterDir="false" />
+    <list default="true" id="1a8416bd-e98e-4333-9bab-b83c025297ab" name="Changes" comment="Adicionando classes Titulo, Filme, Serie e CalculadoraDeTempo&#10;Uso de Herança e Polimorfismo">
+      <change afterPath="$PROJECT_DIR$/src/br/com/vinicius/screenmatch/calculos/Classificavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/vinicius/screenmatch/calculos/FiltroRecomendacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/vinicius/screenmatch/modelos/Episodio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/vinicius/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/vinicius/screenmatch/modelos/Filme.java" afterDir="false" />
@@ -77,6 +77,30 @@
       <option name="presentableId" value="Default" />
       <updated>1707236499962</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adicionando classes Titulo, Filme, Serie e CalculadoraDeTempo&#10;Uso de Herança e Polimorfismo">
+      <option name="closed" value="true" />
+      <created>1707846610926</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707846610926</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adicionando classes Titulo, Filme, Serie e CalculadoraDeTempo&#10;Uso de Herança e Polimorfismo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando classes Titulo, Filme, Serie e CalculadoraDeTempo&#10;Uso de Herança e Polimorfismo" />
   </component>
 </project>

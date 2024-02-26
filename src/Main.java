@@ -8,9 +8,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Filme meuFilme = new Filme();
-        meuFilme.setNome("No Ritmo do Coração");
-        meuFilme.setAnoDeLancamento(2021);
+        Filme meuFilme = new Filme("No Ritmo do Coração", 2021);
         meuFilme.setDuracaoEmMinutos(111);
 
         meuFilme.exibeFichaTecnica();
@@ -21,9 +19,7 @@ public class Main {
         System.out.println("\n\nMédia das avaliações: " + meuFilme.mediaAvaliacoes());
         System.out.println("Total de avaliações: " + meuFilme.getTotalAvaliacoes());
 
-        Serie serie = new Serie();
-        serie.setNome("How I met your mother");
-        serie.setAnoDeLancamento(2005);
+        Serie serie = new Serie("How I met your mother", 2005);
         serie.setAtiva(false);
         serie.setTemporadas(9);
         serie.setEpisodiosPorTemporada(24);
@@ -31,9 +27,7 @@ public class Main {
         serie.exibeFichaTecnica();
         System.out.printf("\nDuração para maratonar %s: %d\n", serie.getNome(), serie.getDuracaoEmMinutos());
 
-        Filme meuFilme2 = new Filme();
-        meuFilme2.setNome("Um sonho de liberdade");
-        meuFilme2.setAnoDeLancamento(1994);
+        Filme meuFilme2 = new Filme("Um sonho de liberdade", 1994);
         meuFilme2.setDuracaoEmMinutos(142);
 
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
@@ -51,9 +45,7 @@ public class Main {
         episodio.setTotalVisualizacoes(700);
         filtro.filtra(episodio);
 
-        Filme meuFilme3 = new Filme();
-        meuFilme3.setNome("O Senhor dos Anéis: A Sociedade do Anel");
-        meuFilme3.setAnoDeLancamento(2001);
+        Filme meuFilme3 = new Filme("O Senhor dos Anéis: A Sociedade do Anel", 2001);
         meuFilme3.setDuracaoEmMinutos(178);
         meuFilme3.avalia(10);
 
@@ -65,6 +57,7 @@ public class Main {
         System.out.println("Primeiro Filme: " + listaDeFilmes.get(0).getNome());
         System.out.println("toString Filme: " + listaDeFilmes.get(0).toString());
         System.out.println(listaDeFilmes);
+
 
     }
 }

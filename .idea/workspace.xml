@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a8416bd-e98e-4333-9bab-b83c025297ab" name="Changes" comment="Adicionando classes Titulo, Filme, Serie e CalculadoraDeTempo&#10;Uso de Herança e Polimorfismo">
+    <list default="true" id="1a8416bd-e98e-4333-9bab-b83c025297ab" name="Changes" comment="fazendo o uso de ArrayList e modificando o toString">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/vinicius/screenmatch/calculos/CalculadoraDeTempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/vinicius/screenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/vinicius/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/vinicius/screenmatch/modelos/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/vinicius/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/vinicius/screenmatch/modelos/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/vinicius/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/vinicius/screenmatch/modelos/Titulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707846610926</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fazendo o uso de ArrayList e modificando o toString">
+      <option name="closed" value="true" />
+      <created>1708969701581</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708969701581</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adicionando classes Titulo, Filme, Serie e CalculadoraDeTempo&#10;Uso de Herança e Polimorfismo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando classes Titulo, Filme, Serie e CalculadoraDeTempo&#10;Uso de Herança e Polimorfismo" />
+    <MESSAGE value="fazendo o uso de ArrayList e modificando o toString" />
+    <option name="LAST_COMMIT_MESSAGE" value="fazendo o uso de ArrayList e modificando o toString" />
   </component>
 </project>

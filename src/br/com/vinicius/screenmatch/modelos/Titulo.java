@@ -8,6 +8,11 @@ public class Titulo {
     private double somaDasAvaliacoes;
     private boolean inclusoNoPlano;
 
+    public Titulo(String nome, int anoDeLancamento) {
+        this.nome = nome;
+        this.anoDeLancamento = anoDeLancamento;
+    }
+
     public void exibeFichaTecnica() {
         System.out.printf("Nome do filme: %s", nome);
         System.out.printf("\nAno de lançamento: %d", anoDeLancamento);

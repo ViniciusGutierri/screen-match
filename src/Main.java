@@ -4,6 +4,8 @@ import br.com.vinicius.screenmatch.modelos.Episodio;
 import br.com.vinicius.screenmatch.modelos.Filme;
 import br.com.vinicius.screenmatch.modelos.Serie;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         Filme meuFilme = new Filme();
@@ -48,5 +50,21 @@ public class Main {
         episodio.setSerie(serie);
         episodio.setTotalVisualizacoes(700);
         filtro.filtra(episodio);
+
+        Filme meuFilme3 = new Filme();
+        meuFilme3.setNome("O Senhor dos Anéis: A Sociedade do Anel");
+        meuFilme3.setAnoDeLancamento(2001);
+        meuFilme3.setDuracaoEmMinutos(178);
+        meuFilme3.avalia(10);
+
+        ArrayList<Filme> listaDeFilmes = new ArrayList<>();
+        listaDeFilmes.add(meuFilme);
+        listaDeFilmes.add(meuFilme2);
+        listaDeFilmes.add(meuFilme3);
+        System.out.println("\nTamanho da Lista: " + listaDeFilmes.size());
+        System.out.println("Primeiro Filme: " + listaDeFilmes.get(0).getNome());
+        System.out.println("toString Filme: " + listaDeFilmes.get(0).toString());
+        System.out.println(listaDeFilmes);
+
     }
 }

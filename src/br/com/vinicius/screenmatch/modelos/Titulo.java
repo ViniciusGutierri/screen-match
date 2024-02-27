@@ -1,6 +1,6 @@
 package br.com.vinicius.screenmatch.modelos;
 
-public class Titulo {
+public class Titulo implements Comparable<Titulo> {
     private String nome;
     private int anoDeLancamento;
     private int totalAvaliacoes;
@@ -73,5 +73,10 @@ public class Titulo {
 
     public void setInclusoNoPlano(boolean inclusoNoPlano) {
         this.inclusoNoPlano = inclusoNoPlano;
+    }
+
+    @Override
+    public int compareTo(Titulo outroTitulo) {
+        return this.getNome().compareTo(outroTitulo.getNome());
     }
 }

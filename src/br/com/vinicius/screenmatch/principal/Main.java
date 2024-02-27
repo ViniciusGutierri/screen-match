@@ -1,3 +1,5 @@
+package br.com.vinicius.screenmatch.principal;
+
 import br.com.vinicius.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.vinicius.screenmatch.calculos.FiltroRecomendacao;
 import br.com.vinicius.screenmatch.modelos.Episodio;
